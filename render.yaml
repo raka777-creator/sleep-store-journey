@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: sleep-store-journey
+    runtime: static
+    buildCommand: echo "static site, nothing to build"
+    staticPublishPath: .
